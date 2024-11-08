@@ -40,8 +40,7 @@ ls -al /dev/*spi*
 ```
 you should see devices like ``` /dev/spidev1.0 ```  
   
-#### zerojack application installation
-I would recommend to use Python virtual environment.  
+#### ZeroJack application installation
 Clone the repository:
 ```
 git clone https://github.com/b1narygl1tch/zerojack.git
