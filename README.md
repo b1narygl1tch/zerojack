@@ -67,10 +67,14 @@ zerojack --help
 There are three hardware components that are used in the project:
 * Raspberry Pi Zero 2 W
 * nRF24L01 module (EByte E01-ML01DP5)
-* AMS1117-based power supply module (YL-105). Optional, but highly recommended!
+* AMS1117-based power supply module (YL-105). Optional, but highly recommended!  
+
+Connection scheme  
+![](./images/Pinout.png)
+![](./images/ConnectionScheme.png)
 
 ### :mouse: Tested mouse devices
-* Logitech M325
+* Logitech M325 (unifying dongle C-U0007)
 * Microsoft Wireless Mouse 4000
 * Amazon Basics MG-0975
 
