@@ -69,7 +69,7 @@ There are three hardware components that are used in the project:
 * nRF24L01 module (EByte E01-ML01DP5)
 * AMS1117-based power supply module (YL-105). Optional, but highly recommended!  
 
-Connection scheme  
+Connection scheme is for Raspberry Pi <-> YL-105 <-> nRF24L01 variant  
 ![](./images/Pinout.png)
 ![](./images/ConnectionScheme.png)
 
