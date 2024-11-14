@@ -82,7 +82,7 @@ Connection scheme is for Raspberry Pi <-> YL-105 <-> nRF24L01 variant. IRQ isn't
 ### :bulb: Plans, ideas, ToDos...
 - [ ] To buy another devices from the [affected devices list](https://www.bastille.net/research/vulnerabilities/mousejack/affected-devices) and develop new modules for them.
 
-### :thumbsup: Acknowledgements or "standing on the shoulders of giants"
+### :thumbsup: Acknowledgements
 The researches, libraries and projects are used in this project:
 * **Bastille original research** https://www.bastille.net/research/vulnerabilities/mousejack/technical-details
 * **Promiscuity is the nRF24L01+'s Duty** http://travisgoodspeed.blogspot.com/2011/02/promiscuity-is-nrf24l01s-duty.html
