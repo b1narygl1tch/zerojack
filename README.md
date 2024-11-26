@@ -1,8 +1,8 @@
 # ZeroJack
-A tool for performing MouseJack attacks.
+A tool for performing MouseJack keystrokes injection attack.
 
 ### :warning: Disclaimer
-The project was created for educational purposes. I am not responsible for any malicious usage of the project and information that is provided here.
+The project was created for educational purposes. I am not responsible for any malicious usage of the project and the information provided here.
 
 ### :space_invader: About the project
 The project was created for educational purposes and as an alternative to Crazyradio PA device to play with vulnerable wireless mouses I own.
@@ -17,7 +17,7 @@ As a payload the tool utilizes [Legacy DuckyScript (1.0)](https://github.com/hak
 ### :white_check_mark: Features
 The software implements four modes:
 * **Main mode** Scans for vulnerable 2.4 GHz HID devices, choose found device(s) and launch keystrokes injection attack.
-* **Autopwn mode** Scans for vulnerable 2.4 GHz HID devices and automatically launch keystrokes injection attack. USE THIS MODE CAREFULLY!
+* **Autopwn mode** Scans for vulnerable 2.4 GHz HID devices and automatically launches keystrokes injection attack. USE THIS MODE CAREFULLY!
 * **Targeted mode** Launches keystrokes injection attack for a particular device whose address could be found earlier by scanning in main mode.
 * **Sniffer mode** Assigns a targeted device address to nRF-module and displays raw radio packets.
 
