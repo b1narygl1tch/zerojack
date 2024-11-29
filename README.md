@@ -33,12 +33,12 @@ then go to ``` Interface Options -> SPI ``` and confirm enabling SPI.
 ```
 sudo nano /boot/firmware/config.txt
 ```
-add line ``` dtoverlay=spi1-1cs ``` and reboot.  
+uncomment line ``` dtparam=spi=on ``` and reboot.  
 Check if SPI enabled:
 ```
 ls -al /dev/*spi*
 ```
-you should see devices like ``` /dev/spidev1.0 ```  
+you should see devices like ``` /dev/spidev0.0 ```  
   
 #### ZeroJack application installation
 Clone the repository:
