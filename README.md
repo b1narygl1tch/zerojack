@@ -16,7 +16,7 @@ As a payload the tool utilizes [Legacy DuckyScript (1.0)](https://github.com/hak
 
 ### :white_check_mark: Features
 The software implements four modes:
-* **Main mode** Scans for vulnerable 2.4 GHz HID devices, choose found device(s) and launch keystrokes injection attack.
+* **Main(manual) mode** Scan for vulnerable 2.4 GHz HID devices, choose found device(s) and launch keystrokes injection attack.
 * **Autopwn mode** Scans for vulnerable 2.4 GHz HID devices and automatically launches keystrokes injection attack. USE THIS MODE CAREFULLY!
 * **Targeted mode** Launches keystrokes injection attack for a particular device whose address could be found earlier by scanning in main mode.
 * **Sniffer mode** Assigns a targeted device address to nRF-module and displays raw radio packets.
