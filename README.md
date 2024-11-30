@@ -7,8 +7,8 @@ The project was created for educational purposes. I am not responsible for any m
 ### :space_invader: About the project
 The project was created for educational purposes and as an alternative to Crazyradio PA device to play with vulnerable wireless mouses I own.
 It consists of two main components:
-* **Software** zerojack Python application
-* **Hardware** Raspberry Pi Zero 2W and SPI-connected nRF24L01+ module  
+* **Software:** ZeroJack Python3 application
+* **Hardware:** Raspberry Pi Zero 2W and SPI-connected nRF24L01+ module  
 Raspberry Pi Zero 2W in headless setup was chosen as it is a good platform for all-in-one hacking device which can be used for MouseJacking, wardriving, Bluetooth attacks, etc.
 No need to mess with firmware flashing, for example.
   
@@ -24,21 +24,19 @@ The software implements four modes:
 ### :floppy_disk: Setup and installation
 #### Enable SPI 
 For RaspberryPi OS (Debian 12 Bookworm) it can be made in two ways: via CUI application or manually.  
-CUI:
+**CUI:**
 ```
 sudo raspi-config
 ```
-then go to ``` Interface Options -> SPI ``` and confirm enabling SPI.  
-**OR** manually:
+then go to _```Interface Options -> SPI```_, confirm enabling SPI and reboot.  
+
+**Manually:**
 ```
 sudo nano /boot/firmware/config.txt
 ```
-uncomment line ``` dtparam=spi=on ``` and reboot.  
-Check if SPI enabled:
-```
-ls -al /dev/*spi*
-```
-you should see devices like ``` /dev/spidev0.0 ```  
+uncomment line _```dtparam=spi=on```_, save and reboot.
+
+Check if SPI enabled: ```ls -al /dev/*spi*```. You should see devices like _```/dev/spidev0.0```_  
   
 #### ZeroJack application installation
 Clone the repository:
@@ -79,9 +77,6 @@ Connection scheme is for Raspberry Pi <-> YL-105 <-> nRF24L01 variant. IRQ isn't
 * Microsoft Wireless Mouse 4000
 * Amazon Basics MG-0975
 
-### :bulb: Plans, ideas, ToDos...
-- [ ] To buy another devices from the [affected devices list](https://www.bastille.net/research/vulnerabilities/mousejack/affected-devices) and develop new modules for them.
-
 ### :thumbsup: Acknowledgements
 The researches, libraries and projects are used in this project:
 * **Bastille original research** https://www.bastille.net/research/vulnerabilities/mousejack/technical-details
@@ -90,6 +85,12 @@ The researches, libraries and projects are used in this project:
 * **JackIt project** https://github.com/insecurityofthings/jackit
 * **Python port of the RF24 library for NRF24L01+ radios** https://github.com/jpbarraca/pynrf24
 * **Mousejack for Arduino UNO** https://github.com/dnatividade/Arduino_mousejack
+
+### :scroll: License
+The project is under BSD license and relies on the following projects:
+* **Python port of the RF24 library for NRF24L01+ radios** https://github.com/jpbarraca/pynrf24. Is under GPL-2.0 license.
+* **JackIt project** https://github.com/insecurityofthings/jackit. Is under BSD license.
+* **RaspJack project** https://github.com/DigitalSecurity/raspjack. Is under GPL-3.0 license.
 
 ### :heart: Support the project
 You can support the project here:
