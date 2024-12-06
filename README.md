@@ -91,6 +91,3 @@ The project is under BSD-3-Clause license and relies on the following projects:
 * **Python port of the RF24 library for NRF24L01+ radios** https://github.com/jpbarraca/pynrf24. Is under GPL-2.0 license.
 * **JackIt project** https://github.com/insecurityofthings/jackit. Is under BSD license.
 * **RaspJack project** https://github.com/DigitalSecurity/raspjack. Is under GPL-3.0 license.
-
-### :heart: Support the project
-You can support the project here:
