@@ -1,10 +1,10 @@
+![](./images/Banner.png?)
+
 <div align="center">
   <h1>ZeroJack</h1>
   <img src="https://raw.githubusercontent.com/b1narygl1tch/zerojack/refs/heads/main/images/Banner.png" alt="banner">
   <p>A tool for performing MouseJack keystrokes injection attack.</p>
 </div>
-
-![](./images/Banner.png?)
 
 ### :warning: Disclaimer
 The project was created for educational purposes. I am not responsible for any malicious usage of the project and the information provided here.
