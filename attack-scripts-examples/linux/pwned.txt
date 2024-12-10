@@ -1,0 +1,7 @@
+GUI
+DELAY 300
+STRING terminal
+ENTER
+DELAY 1000
+STRING echo '**************' && echo '*** Pwned! ***' && echo '**************'
+ENTER
