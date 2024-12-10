@@ -1,0 +1,6 @@
+GUI r
+DELAY 300
+STRING explorer "https://ravbug.com/bsod/bsod10"
+ENTER
+DELAY 2000
+F11
