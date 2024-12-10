@@ -54,7 +54,7 @@ source bin/activate
 ```
 Launch setup script:
 ```
-pip install setup.py
+pip install .
 ```
 Launch the tool:
 ```
