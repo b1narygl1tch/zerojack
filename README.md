@@ -1,9 +1,7 @@
-![](./images/Banner.png?)
-
 <div align="center">
   <h1>ZeroJack</h1>
-  <img src="https://raw.githubusercontent.com/b1narygl1tch/zerojack/refs/heads/main/images/Banner.png" alt="banner">
   <p>A tool for performing MouseJack keystrokes injection attack.</p>
+  <img src="https://raw.githubusercontent.com/b1narygl1tch/zerojack/refs/heads/main/images/Banner.png" alt="banner">
 </div>
 
 ### :warning: Disclaimer
