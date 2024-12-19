@@ -71,9 +71,13 @@ There are three hardware components that are used in the project:
 * AMS1117-based power supply module (YL-105). Optional, but highly recommended!  
 
 Connection scheme is for Raspberry Pi <-> YL-105 <-> nRF24L01 variant. IRQ isn't used.  
-
-![](./images/Pinout.png)
+  
 ![](./images/ConnectionScheme.png)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/b1narygl1tch/zerojack/refs/heads/main/images/Pinout.png" alt="Pinout table">
+  <p></p>
+</div>
 
 ### :mouse: Tested mouse devices
 * Logitech M325 (unifying dongle C-U0007)
